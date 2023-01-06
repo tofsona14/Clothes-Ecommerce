@@ -1,0 +1,14 @@
+.ul--Header {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;    
+}
+.ul--Header, li {
+    margin: 10px;
+    font-size: large;
+    cursor: pointer;
+}
+.ul--Header, li:hover {
+    transform:scale(1.2);
+    transition: 0.5s;
+}

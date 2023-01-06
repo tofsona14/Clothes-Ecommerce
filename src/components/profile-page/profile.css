@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.imgOfProfile {
+    margin-top: 20%;
+    width: 15vw;
+    height: 20vh;
+}
+.ListOfWordsOfProfile {
+    border-radius: 15%;
+    display: grid;
+    height: 400px;
+}
+.first-List--Profile{
+    grid-area: header;
+}
+.second-List--profile{
+    grid-area: footer;
+}
+.ListOfWordsOfProfile {
+    font-size: small;
+    text-transform:uppercase;
+
+}
+.MainDivOfListOfWordsOfProfile{
+    display: flex;
+    border-radius: 15%;
+    align-items: center;
+    width: 15vw;
+    
+}
+.ListOfWordsOfProfile, button{
+    width: 100%;
+}
+a.buttonSt:link {
+    text-decoration: none;
+}
+.buttonSt:link:hover {
+    cursor: pointer;
+    color: gray;
+}
+.buttonSt:hover {
+    font-size: large;
+    color: gray;
+}
+.buttonNd:hover {
+    font-size: large;
+    color: gray;
+}
+
+.buttonTh:hover {
+    color: gray;
+    font-size: large;
+}
+.buttonFth:hover {
+    color: gray;
+    font-size: large;
+}
+.ContentOfProfile {
+    width: 63vw;
+    height: 100vh;
+}
+.MainContOfProfile {
+    display: flex;
+}
+.together--profile--st{
+    background-image: url('../images/sssss.jpg');
+    background-size: cover;
+    background-position: 2%;
+    display: grid;
+    grid-template-columns: 1fr 2.5fr;
+}
+.profile--info--info{
+    display: block;
+    width: 50vw;
+    margin-top: 10vh;
+    height: 50vh;
+}
+.Together--ProfileSt{
+    display: grid;
+    grid-template-rows: 0.6fr 0.5fr;
+}
+.Together--ProfileNd{
+    display: grid;
+    grid-template-rows: 0.6fr 0.5fr;
+}
+.Together--ProfileTh{
+    display: grid;
+    grid-template-rows: 0.6fr 0.5fr;
+}
+
+.ul--Header{
+    width: 70vh;
+    color: rgb(135, 123, 123);
+    display: flex;
+}
+
+.Img--Profile{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.ListOfWordsOfProfile, button {
+    background: url(../images/sssss.jpg);
+    background-position: 11.1%;
+    
+}
+.ListOfProfile{
+    display: grid;
+    border-radius: 15%;
+    grid-template-rows: 1fr 2.5fr;
+}
+.profile-info-infos{
+    display: grid;
+    color: rgb(135, 123, 123);
+    grid-template-columns: 0.4fr 0.5fr;
+}
+.profile-info-infos input{
+    height: 3vh;
+    width: 20vw;
+    margin: 10px;
+}
+#StBut {
+    background-position: 21.2%;
+}
+#NdBut{
+    background-position: 16.2%;
+}
+#ThBut{
+    background-position: 11.14%;
+}
+#FthBut {
+    background-position: 6%;
+}
+#FiThBut{
+    background-position: 1%;
+}
+.profile--change--password{
+    display: block;
+    width: 50vw;
+    margin-top: 10vh;
+    height: 50vh;
+}
