@@ -5,19 +5,11 @@ import {FirstOfProfile, SecondOfProfile, ThirdOfProfile, ZeroOfProfile} from './
 import './components/profile-page/profile.css'
 import Home from './components/each-page-full/home'
 import Male from './components/each-page-full/male'
+import Moa from './app2';
 
 function App() {
   return (
-        <Router>
-          <Routes>
-          <Route path='/' element={<Home />} />
-          <Route path='/Shop' element={<Male />}/>
-          <Route path='/Profile' element={<ZeroOfProfile />}/>
-          <Route path="/Profile-info" element={<FirstOfProfile />} />
-          <Route path="/Profile-pass" element={<SecondOfProfile />} />
-          <Route path="/Profile-num" element={<ThirdOfProfile />} />
-          </Routes>
-        </Router>
+        <Moa />
     )
 }
 
