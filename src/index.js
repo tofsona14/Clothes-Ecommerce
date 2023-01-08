@@ -5,9 +5,6 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Moa from './app2';
-import Sola from './app3';
-import NewExpense from './first';
-import Test from './test';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <div className='TestTest'>
