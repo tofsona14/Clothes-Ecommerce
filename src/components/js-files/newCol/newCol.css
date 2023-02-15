@@ -1,0 +1,188 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #fff;
+}
+.HeaderHeader{
+    display: flex;
+    width: 99%;
+    margin: 0;
+    padding: 0;
+    height: 15vh;
+    position: relative;
+    text-align: center;
+}
+.HeaderUl {
+    display: flex;
+    position: absolute;
+    width: 70%;
+    font-size: 20px;
+    right: 10px;
+    justify-content: space-between;
+    margin-top: 55px;
+}
+.ImgOfHeader{
+    width: 100px;
+    margin-top: 20px;
+    margin-left:70px;
+}
+.HeaderUlLo1 {
+    text-transform: uppercase;
+    text-align: center;
+    width: 150px;
+    cursor: pointer;
+    border-bottom: 2px solid black transparent;
+    transition: all 250ms ease-in-out;
+}
+
+.HeaderUlLo2 {
+    text-transform: uppercase;
+    text-align: center;
+    justify-content: center;
+    width: 150px;
+    cursor: pointer;
+    border-bottom: 2px solid black transparent;
+    transition: all 250ms ease-in-out;
+}
+
+.HeaderUlLo3 {
+    text-transform: uppercase;
+    text-align: center;
+    width: 150px;
+    cursor: pointer;
+    border-bottom: 2px solid black transparent;
+    transition: all 250ms ease-in-out;
+}
+
+.HeaderUlLo4 {
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+    width: 23%;
+    transition: all 250ms ease-in-out;
+}
+
+a {
+    text-decoration: none;
+}
+.HeaderUlLo4:hover {
+    transform: scale(1.1);
+    border-bottom: 2px solid black;
+}
+.HeaderUlLo3:hover {
+    transform: scale(1.1);
+    border-bottom: 2px solid black;
+}
+.HeaderUlLo2:hover {
+    transform: scale(1.1);
+    border-bottom: 2px solid black;
+}
+.HeaderUlLo1:hover {
+    transform: scale(1.1);
+    border-bottom: 2px solid black;
+}
+.ChooseContainer{
+    width: 99%;
+    height: 10vh;
+    
+}
+.UlOfMain{
+    text-transform: capitalize;
+    font-size: 40px;
+    display: flex;
+    justify-content: space-around;
+}
+.UlOfMain lo{
+    border-end-end-radius: red;
+}
+
+.NdDiv{
+    width: 99%;
+    height: 70vh;
+    display: flex;
+    position: relative;
+}
+.thSection{
+    display: flex;
+    width: 100vw;
+    border-radius: 15px;
+}
+.section--div--rd {
+    width: 33vw;
+    border:  1px solid gray;
+} 
+
+.ModelOfSuitSection {
+   position: relative;    
+   width: 99%;
+   height: 30%;
+}
+.ModelOfSuitSection label{
+    width: 30%;
+    position: absolute;
+    text-align: center;
+}
+.StSection {
+    font-size: 15px;
+    color: gray;
+}
+.WTF {
+    display: block;
+}
+.ModelOfSuitSectionDivSt {
+    margin-top: 20px;
+}
+.ModelOfSuitSection--Header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.SuitSection--price{
+    position: relative;
+    width: 99%;
+    height: 30%;
+}
+.SuitSection--Price-Text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.SuitSection--Price-slider {
+    display: flex;
+    width: 100%;
+    height: 80%;
+    position: relative;
+    right: 0;
+    justify-content: center;
+    align-items: center;
+}
+.SuitSection--Details{
+    position: relative;
+    width: 99%;
+    height: 38%;
+}
+
+.s{
+    
+    width: 80%;
+}
+.MainContainer{
+    margin-top: 60px;
+}
+.Home--Header{
+    display: flex;
+    grid-template-areas: 1fr 1fr;
+}
+
+.Home--Header--Child{
+    display: grid;
+    grid-template-columns: 0.8fr 0.3fr;
+}
+.Male--Together{
+    background-image: url('../../images/sssss.jpg');
+}
+.zd{
+    cursor: pointer;
+}
