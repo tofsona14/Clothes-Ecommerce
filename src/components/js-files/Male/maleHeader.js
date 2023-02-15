@@ -21,7 +21,7 @@ function Headers(){
     >
                 <ul className="ul--Header">
                     <li><Link to='/' style={{color:"gray"}}>Home </Link></li>
-                    <li><Link to='/Shop' style={{color:"gray"}}>New Collection</Link></li>
+                    <li><Link to='/collection' style={{color:"gray"}}>New Collection</Link></li>
                     <li>About Us</li>
                     <li><Link to='/Profile' style={{color:"gray"}}>Login</Link></li>
                 </ul>
