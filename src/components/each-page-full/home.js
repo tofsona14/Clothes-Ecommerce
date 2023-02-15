@@ -27,7 +27,6 @@ function Home(){
                 </div>
             </div>
             <Main />
-            <Slide />
         </motion.div>
     )
 }

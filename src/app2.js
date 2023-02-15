@@ -5,8 +5,7 @@ import {FirstOfProfile, SecondOfProfile, ThirdOfProfile, ZeroOfProfile} from './
 import './components/profile-page/profile.css'
 import Home from './components/each-page-full/home'
 import Male from './components/each-page-full/male'
-const Moa = (props) => {
-console.log(props.items)
+const Moa = () => {
     return(
         <div>
             <Router>

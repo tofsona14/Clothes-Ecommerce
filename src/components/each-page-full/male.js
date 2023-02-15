@@ -18,17 +18,3 @@ function Male() {
 export default Male
 
 
-class Person {
-    name = 'max'
-    constructor() {
-        this.name = 'max'
-    }
-}
-
-var s = {
-    name: 'gios'
-}
-
-s.surname = "nonas"
-
-console.log(s)

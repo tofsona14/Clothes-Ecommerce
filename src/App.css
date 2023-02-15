@@ -1,6 +1,11 @@
+@font-face {
+  font-family: 'helvectica';
+  src: url("./components/fonts/HelveticaNeue.ttc");
+}
 * {
   margin: 0;
   padding: 0;
+  font-family: helvectica;
 }
 
 .Home--Header {
